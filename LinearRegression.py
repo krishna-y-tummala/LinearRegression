@@ -10,6 +10,11 @@ sns.set_style('whitegrid')
 #READ DATA
 customers = pd.read_csv('C:\\Users\\User\\Documents\\Ecommerce Customers.csv')
 
+#Change Working Directory if required
+import os
+os.getcwd()
+os.chdir('C:\\Users\\User\\Desktop\\school\\Python\\projects\\LinearRegression')
+
 #DATA DESCRIPTIONS
 print(customers.head())
 print('\n',customers.describe())
