@@ -7,6 +7,6 @@ Please paste a copy of the data file (Ecommerce Customers.csv) in your documents
 
 To save the plots, create a new folder and use the os module to change the working directory. Lines 14-16
 
-Libraries Required: NumPy, Pandas, os, Seaborn and Matplotlib
+Libraries Required: NumPy, Pandas, os, SciKit Learn (sklearn), Seaborn and Matplotlib
 
 I have not used a Random State for my train test split, so your results may slightly differ from mine.
